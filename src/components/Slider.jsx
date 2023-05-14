@@ -19,12 +19,12 @@ const Slider = () => {
         loop={true}
         effect="fade"
         slidesPerView={1}
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={""}
+        onSwiper={""}
       >
         {data.map((value, index) =>{
           return (
-        <SwiperSlide key={index} className="h-screen w-full py-24 2xl:container 2xl:mx-auto px-28">
+        <SwiperSlide key={index} className="h-screen w-full py-24 2xl:container 2xl:mx-auto px-28 2xl:mx-auto">
           <div className={"w-full h-full border-2 border-slate-100 overflow-hidden shadow-2xl rounded-xl flex " + (value.BgCar)}>
             {/* left side */}
             {/* car img */}
