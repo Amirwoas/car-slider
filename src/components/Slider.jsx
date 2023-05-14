@@ -40,7 +40,7 @@ const Slider = () => {
             <span className="w-1/2 h-full px-10 xl:px-20 flex flex-col bg-gray-50 items-center">
               {/* logo brand */}
               <div className="flex items-center justify-center h-20 w-20 pt-6">
-                <img className="aspect-auto" src={value.carLogo} alt="logo" />
+                <img className={"aspect-auto " + (value.classLogo)} src={value.carLogo} alt="logo" />
               </div>
               {/* name and model */}
               <div className="flex w-full items-center justify-between font-bold text-2xl pt-6 px-1">
@@ -50,7 +50,7 @@ const Slider = () => {
                 </span>
               </div>
               {/* line */}
-              <span className="w-full py-[1px] bg-slate-400 my-4"></span>
+              <span className="w-full py-[1px] bg-slate-400 my-4 "></span>
               {/* detail car */}
               <div className="w-full font-semibold flex text-slate-700 justify-between items-center pt-2 pb-4 2xl:pt-4 2xl:pb-">
                    {/* left */}
